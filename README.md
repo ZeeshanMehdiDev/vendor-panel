@@ -20,7 +20,7 @@ for <a href="https://github.com/mercurjs/mercur">Mercur</a> - Open Source Market
   </p> 
 </div>
 
-## Vendor Panel for Mercur
+## Vendor Panel for Mercur ( finally  deployed )
 
 The Vendor Panel is a pivotal component of the MercurJS ecosystem, designed to provide vendors with an intuitive interface to oversee their marketplace activities. 
 
