@@ -8,6 +8,7 @@
     "build:preview": "vite build",
     "build:admin": "medusa build",
     "preview": "vite preview",
+    "start": "serve dist",
     "test": "vitest --run",
     "i18n:validate": "node ./scripts/i18n/validate-translation.js",
     "i18n:schema": "node ./scripts/i18n/generate-schema.js",
@@ -76,6 +77,7 @@
     "react-jwt": "^1.2.0",
     "react-router-dom": "6.20.1",
     "recharts": "^2.15.1",
+    "serve": "^14.2.4",
     "talkjs": "^0.35.0",
     "zod": "3.22.4"
   },
