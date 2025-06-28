@@ -8,7 +8,7 @@
     "build:preview": "vite build",
     "build:admin": "medusa build",
     "preview": "vite preview",
-    "start": "serve dist",
+    "start": "serve dist -p 3000",
     "test": "vitest --run",
     "i18n:validate": "node ./scripts/i18n/validate-translation.js",
     "i18n:schema": "node ./scripts/i18n/generate-schema.js",
