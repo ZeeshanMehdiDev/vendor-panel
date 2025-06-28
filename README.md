@@ -60,10 +60,6 @@ git clone https://github.com/mercurjs/vendor-panel.git
 
 Go to directory
 
-```js
-cd vendor-panel
-```
-
 &nbsp;
 
 Install dependencies
