@@ -41,7 +41,15 @@ export default defineConfig(({ mode }) => {
       ),
     },
     server: {
-      open: true,
+      open: false,
+    },
+    preview: {
+      host: false,
+      allowedHosts: [
+        "vendor-panel-production-bacb.up.railway.app",
+        "localhost",
+        "127.0.0.1",
+      ],
     },
     optimizeDeps: {
       entries: [],
