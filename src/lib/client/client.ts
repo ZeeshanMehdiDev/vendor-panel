@@ -1,6 +1,6 @@
 import Medusa from "@medusajs/js-sdk"
 
-export const backendUrl = __BACKEND_URL__ ?? "/"
+export const backendUrl = __BACKEND_URL__ ?? "https://backend-production-bbf5.up.railway.app"
 export const publishableApiKey = __PUBLISHABLE_API_KEY__ ?? ""
 
 const token = window.localStorage.getItem("medusa_auth_token") || ""

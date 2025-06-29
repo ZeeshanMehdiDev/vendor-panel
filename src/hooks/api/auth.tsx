@@ -1,7 +1,7 @@
 import { FetchError } from "@medusajs/js-sdk"
 import { HttpTypes } from "@medusajs/types"
 import { UseMutationOptions, useMutation } from "@tanstack/react-query"
-import { fetchQuery, sdk } from "../../lib/client"
+import { backendUrl, fetchQuery, sdk } from "../../lib/client"
 
 export const useSignInWithEmailPass = (
   options?: UseMutationOptions<
@@ -33,7 +33,10 @@ export const useSignUpWithEmailPass = (
   >
 ) => {
   return useMutation({
-    mutationFn: (payload) => sdk.auth.register("seller", "emailpass", payload),
+    mutationFn: (payload) => {
+      console.log('Backend URL:', backendUrl); // Debug log
+      return sdk.auth.register("seller", "emailpass", payload);
+    },
     onSuccess: async (_, variables) => {
       const seller = {
         name: variables.name,
