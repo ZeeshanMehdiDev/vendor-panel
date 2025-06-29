@@ -19,6 +19,7 @@ export default defineConfig(({ mode }) => {
   /**
    * Add this to your .env file to specify the project to load admin extensions from.
    */
+  
   const MEDUSA_PROJECT = env.VITE_MEDUSA_PROJECT || null
   const sources = MEDUSA_PROJECT ? [MEDUSA_PROJECT] : []
 
