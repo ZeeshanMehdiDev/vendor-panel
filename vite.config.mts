@@ -46,7 +46,7 @@ export default defineConfig(({ mode }) => {
     preview: {
       host: false,
       allowedHosts: [
-        "vendor-panel-production-bacb.up.railway.app",
+        "rixdev-vendor-panel.up.railway.app",
         "localhost",
         "127.0.0.1",
       ],
